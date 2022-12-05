@@ -178,11 +178,11 @@ header {
     left: 10%;
     width: 50% ;
     height: 75vh;
-    font-size:100%;
 
 
     /*transform: translate(-100%, -100%);*/
 }
+
 
 .titre .lignereseau{
     margin-top: 18%;
@@ -270,7 +270,7 @@ iframe{
 .titre .numerodetelephone img{
     margin-top: 6vh;
     height: 5vw;
-    min-height: 35px;
+    min-height: 50px;
    
 }
 
