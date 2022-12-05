@@ -174,10 +174,10 @@ header {
 
 .titre{
     position: absolute;
-    top: 22%;
+    top: 20%;
     left: 10%;
     width: 50% ;
-    height: auto;
+    height: 75vh;
     font-size:100%;
 
 
@@ -193,9 +193,9 @@ header {
 .titre .lignereseau img{
     margin-right:9vh;
     height: 6vw;
-    min-width: 50px;
-    min-height: 50px;
-    margin-top: 4vh;
+    min-width: 35px;
+    min-height: 35px;
+    margin-top: 3vh;
 }
 
 .titre .lignereseau #insta:hover{
@@ -268,9 +268,9 @@ iframe{
 }
 
 .titre .numerodetelephone img{
-    margin-top: 8vh;
+    margin-top: 6vh;
     height: 5vw;
-    min-height: 50px;
+    min-height: 35px;
    
 }
 
