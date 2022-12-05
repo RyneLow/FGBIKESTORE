@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 104vh;
+    width: 100%;
+    background-image: url(img/46AFB14C-D616-4FB4-97D8-99D737F290B4-modified\ 2.png); 
+    background-size: cover;
+    z-index: 1;
+
+}
+
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 115%;
+
+}
+
+.navbar a{
+    color: white;
+    transition: 0.5s;
+
+}
+
+
+.navbar .logo {
+    width: 10%;
+
+}
+
+.navbar .logo:hover{
+    color: black;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a{
+    color: rgb(0, 0, 0) ;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar .nav-links ul li a:hover{
+    color:rgb(154, 154, 154);
+    transition: 0.5s;
+}
+
+.navbar .nav-links ul li.active a:hover{
+    color:#FFF;
+    transition: 0.5s;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 35px;
+   
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+
+
+
+    .navbar{
+        padding: 0;
+    }
+
+    .navbar .logo{
+        position: absolute;
+        top: 5vh;
+        left: 5vh;
+    }
+
+
+
+    .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.105);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s;
+        
+    }
+
+    .nav-links.mobile-menu{
+        margin-left: 0;
+        transition: 1s;
+    }
+
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .menu-hamburger {
+        display: block;
+    }
+
+    .titre{
+        margin-top: 5px;
+        transition: 1s;
+        
+    }
+
+    .titre-menu{
+        transition: 2s;
+        display: none;
+        
+    }
+
+    .paragraphe-menu{
+        transition: 0.5s;
+        display: none;
+    }
+
+    .navbar .logo {
+        padding: 10px 0px;
+        height: 80px;
+        float: left;
+    }
+    
+    
+    
+}
+
+
+.titre{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 1% ;
+    height: auto;
+
+    /*transform: translate(-100%, -100%);*/
+}
+
+
+
+.titre h1{
+    color:#FFF;
+}
+
+.paragraphe{
+    position: absolute;
+    top: 46%;
+    left: 10%;
+}
+
+.paragraphe p{
+    color: white;
+    font-size: large;
+
+}
+
+
+span{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.titre span{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+span:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    
+}
+
+
+.titre2{
+    position: absolute;
+    left: 10%;
+    margin-top: 100px;
+}
+
+.titre2 h1{
+    color:#FFF;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.paragraphe2{
+    position: absolute;
+    left: 10%;
+    margin-top: 160px;
+}
+
+.paragraphe2 p{
+    color: white;
+    font-size: large;
+}
+
+.paragraphe2 span{
+    color: rgb(78, 78, 78);
+    font-size: large;
+}
+
+.images{
+    width: 20%;
+    height: 35%;
+    bottom: 0;
+    margin: 0;
+    right: 100%;
+}
+
+.images img{
+    height: 70%;
+    position: absolute;
+    left: 65%;
+    margin-top: 200px;
+    transform: translateX(-20%);
+    transition: bottom 1s, left 1s;
+    z-index: 1;
+}
+
+.person:hover{
+    left: 70%;
+    
+}
+
+
+
+
+
+
