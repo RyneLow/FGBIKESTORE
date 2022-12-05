@@ -15,8 +15,10 @@ body {
 header {
     height: 104vh;
     width: 100%;
-    background-image: url(img/46AFB14C-D616-4FB4-97D8-99D737F290B4-modified\ 2.png); 
+    background-image: url(img/contactbackground2.jpg); 
+    
     background-size: cover;
+    background-attachment: fixed;
     z-index: 1;
 
 }
@@ -170,7 +172,7 @@ header {
 
 .titre{
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 10%;
     width: 50% ;
     height: auto;
@@ -231,11 +233,11 @@ span{
 
 .titre span{
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 span:hover{
-    color: white;
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 
@@ -246,57 +248,6 @@ span:hover{
     
 }
 
-
-.titre2{
-    position: absolute;
-    left: 10%;
-    margin-top: 100px;
-}
-
-.titre2 h1{
-    color:#FFF;
-    font-size: xx-large;
-    text-decoration: underline;
-}
-
-.paragraphe2{
-    position: absolute;
-    left: 10%;
-    margin-top: 160px;
-}
-
-.paragraphe2 p{
-    color: white;
-    font-size: large;
-}
-
-.paragraphe2 span{
-    color: rgb(78, 78, 78);
-    font-size: large;
-}
-
-.images{
-    width: 20%;
-    height: 35%;
-    bottom: 0;
-    margin: 0;
-    right: 100%;
-}
-
-.images img{
-    height: 70%;
-    position: absolute;
-    left: 65%;
-    margin-top: 200px;
-    transform: translateX(-20%);
-    transition: bottom 1s, left 1s;
-    z-index: 1;
-}
-
-.person:hover{
-    left: 70%;
-    
-}
 
 iframe{
     height: 50vh;
