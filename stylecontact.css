@@ -170,7 +170,7 @@ header {
 
 .titre{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 10%;
     width: 50% ;
     height: auto;
@@ -180,15 +180,17 @@ header {
 }
 
 .titre .lignereseau{
-    margin-top: 15%;
-    width:90%;
+    margin-top: 18%;
+    width:80%;
     
 }
 
 .titre .lignereseau img{
     margin-right:10vh;
     height: 6vw;
-    margin-bottom: 6vh;
+    min-width: 60px;
+    min-height: 60px;
+    margin-top: 6vh;
 }
 
 .titre .lignereseau #insta:hover{
