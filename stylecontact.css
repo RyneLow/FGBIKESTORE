@@ -193,8 +193,8 @@ header {
 .titre .lignereseau img{
     margin-right:9vh;
     height: 6vw;
-    min-width: 60px;
-    min-height: 60px;
+    min-width: 50px;
+    min-height: 50px;
     margin-top: 4vh;
 }
 
@@ -207,7 +207,7 @@ header {
 }
 
 .titre .lignereseau #email:hover{
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 .titre .numerodetelephone :hover{
@@ -270,7 +270,7 @@ iframe{
 .titre .numerodetelephone img{
     margin-top: 8vh;
     height: 5vw;
-    min-height: 60px;
+    min-height: 50px;
    
 }
 
